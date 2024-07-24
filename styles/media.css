@@ -1,0 +1,55 @@
+/* media Quarry for navbar*/
+@media screen and (max-width: 576px) {
+
+
+    .nav-container {
+        padding-left: 2rem;
+    }
+
+    .nav-elements {
+        display: none;
+    }
+
+    .ham-bug {
+        display: block;
+
+        /* color: rgb(255, 255, 255); */
+    }
+
+    .nav-container {
+        padding-right: 2rem;
+    }
+
+}
+
+/* media Querry for banner */
+@media screen and (max-width:576px) {
+    .banner-container {
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+
+   .content-container{
+     width: 100%;
+   }
+   .banner-btn1{
+    width: 100%;
+   }
+   .banner-btn2{
+    width: 100%;
+   }
+   .banner-card-container{
+    width: 100%;
+    padding-left: 5rem;
+    padding-top: 3rem;
+   }
+   .banner-card1{
+       top: 15%;
+       left: 70%;
+   }
+   .banner-card2{
+     top: 50%;
+     left: 10%;
+   }
+
+}
