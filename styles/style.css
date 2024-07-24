@@ -251,7 +251,7 @@
     font-weight: 600;
     padding-left: 50px;
     padding-top: 30px;
-   
+
 }
 
 .caption-description {
@@ -260,13 +260,74 @@
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
-   
+
 }
-.habits-div-container{
+
+.habits-div-container {
     display: flex;
     padding-top: 54px;
     gap: 60px;
 }
-.caption-img{
+
+.caption-img {
     border-radius: 50%;
 }
+
+/* Run-Extra mile started */
+.run-extra-container {
+
+    background-color: rgb(0, 0, 0);
+    padding: 4.3rem 11.9rem;
+}
+
+.extra-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+}
+
+.run-extra-heading {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.run-extra-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 14px;
+}
+
+.run-extra-btn {
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+    width: 224px;
+    height: 54px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.run-extra-img {
+    width: 50%;
+    height: 80%;
+    padding-top: 35px;
+    padding-left: 300px;
+    padding-bottom: 30px;
+
+}
+
+.run-extra-content-container {
+    padding-left: 44px;
+    padding-top: 40px;
+}
+
+.run-img-container {}
