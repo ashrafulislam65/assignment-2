@@ -29,27 +29,81 @@
         padding-left: 2rem;
     }
 
-   .content-container{
-     width: 100%;
-   }
-   .banner-btn1{
-    width: 100%;
-   }
-   .banner-btn2{
-    width: 100%;
-   }
-   .banner-card-container{
-    width: 100%;
-    padding-left: 5rem;
-    padding-top: 3rem;
-   }
-   .banner-card1{
-       top: 15%;
-       left: 70%;
-   }
-   .banner-card2{
-     top: 50%;
-     left: 10%;
-   }
+    .content-container {
+        width: 100%;
+    }
 
+    .banner-btn1 {
+        width: 100%;
+    }
+
+    .banner-btn2 {
+        width: 100%;
+    }
+
+    .banner-card-container {
+        width: 100%;
+        padding-left: 5rem;
+        padding-top: 3rem;
+    }
+
+    .banner-card1 {
+        top: 15%;
+        left: 70%;
+    }
+
+    .banner-card2 {
+        top: 50%;
+        left: 10%;
+    }
+
+    .banner-play-icon {
+        display: block;
+        left: 33px;
+    }
+
+}
+
+/* change your habits section media querry */
+@media screen and (max-width: 576px) {
+    .change-habits-container {
+        padding: 0px 20px;
+    }
+
+    .change-habits-heading {
+        width: 100%;
+        width: 518px;
+        height: 38px;
+        text-align: left;
+
+    }
+
+    .change-habits-description {
+        width: 316px;
+        height: 72px;
+        padding-left: 69px;
+        padding-top: 34px;
+    }
+    .habits-div-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .caption-title{
+        text-align: center;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+    .caption-description {
+        
+       width: 318px;
+       text-align: center;
+       padding-left: 65px;
+    }
+    .caption-img{
+       padding-left: 150px;
+       padding-right: 150px;
+       /* border-radius: 50%; */
+    }
 }
