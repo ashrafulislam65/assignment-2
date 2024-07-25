@@ -330,4 +330,121 @@
     padding-top: 40px;
 }
 
-.run-img-container {}
+/* meet our team section */
+
+.meet-team-container {
+    background-color: rgb(0, 0, 0);
+    padding-left: 26rem;
+    padding-top: 5.5rem;
+
+}
+
+.meet-team-heading {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-left: 153px;
+}
+
+.meet-team-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 671px;
+    height: 48px;
+    padding-top: 14px;
+    text-align: center;
+    padding-bottom: 58px;
+}
+
+.meet-team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 671px;
+    height: 604px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.team-card-img {
+    width: 100%;
+    height: 90%;
+    border-radius: 18px;
+    filter: brightness(60%);
+    
+
+}
+
+.team-card-img2 {
+    padding-left: 0px;
+    width: 100%;
+    height: 90%;
+    border-radius: 18px;
+    filter: brightness(60%);
+    position: relative;
+}
+
+.team-card-img3 {
+    width: 100%;
+    height: 90%;
+    border-radius: 18px;
+    filter: brightness(60%);
+    position: relative;
+
+}
+
+.team-card-img4 {
+    width: 100%;
+    height: 80%;
+    border-radius: 18px;
+    filter: brightness(60%);
+    position: relative;
+}
+
+.team-card-img5 {
+    width: 100%;
+    height: 80%;
+    border-radius: 18px;
+    filter: brightness(60%);
+    position: relative;
+}
+
+.team-card-img6 {
+    width: 100%;
+    height: 80%;
+    border-radius: 18px;
+    filter: brightness(60%);
+    position: relative;
+}
+.team-card-title{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+    padding-left: 10px;
+    top: 60%;
+   
+    
+   
+}
+.team-card-description{
+    color: rgba(255, 254, 254, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    position: absolute;
+    padding-left: 10px;
+    top: 70%;
+
+}
+.team-card{
+    position: relative;
+}
