@@ -370,6 +370,7 @@
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
+   
 
 }
 
@@ -378,7 +379,7 @@
     height: 90%;
     border-radius: 18px;
     filter: brightness(60%);
-    
+
 
 }
 
@@ -423,7 +424,8 @@
     filter: brightness(60%);
     position: relative;
 }
-.team-card-title{
+
+.team-card-title {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -431,11 +433,12 @@
     position: absolute;
     padding-left: 10px;
     top: 60%;
-   
-    
-   
+
+
+
 }
-.team-card-description{
+
+.team-card-description {
     color: rgba(255, 254, 254, 0.5);
     font-family: "Inter", sans-serif;
     font-size: 0.75rem;
@@ -445,6 +448,76 @@
     top: 70%;
 
 }
-.team-card{
+
+.team-card {
     position: relative;
+}
+
+/* Footer started */
+.footer-container {
+    background-color: rgb(35, 35, 35);
+   
+}
+
+.footer-contents {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+
+}
+
+.footer-head {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 443px;
+    height: 72px;
+    padding-top: 20px;
+}
+
+.ftr-get-start1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    width: 181px;
+    height: 38px;
+    padding-bottom: 39px;
+}
+
+.items {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    padding-bottom: 80px;
+    list-style: none;
+    padding-left: 10px;
+
+}
+
+footer ul li {
+    padding-top: 10px;
+}
+
+.hr-line {
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 35px;
 }

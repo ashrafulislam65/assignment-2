@@ -151,7 +151,7 @@
     .meet-team-grid {
         grid-template-columns: repeat(1, 1fr);
         width: 80%;
-        height: 4000px;
+        height: 2000px;
     }
 
     .meet-team-heading {
@@ -166,5 +166,17 @@
         height: 72px;
         font-size: 1rem;
     }
+   
 
+}
+/* footer section */
+@media screen and (max-width: 576px ){
+    .footer-contents{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .hr-line{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
