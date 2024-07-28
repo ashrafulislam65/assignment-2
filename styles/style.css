@@ -370,7 +370,7 @@
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
-   
+
 
 }
 
@@ -453,10 +453,149 @@
     position: relative;
 }
 
+/* BMI Calculation */
+thead {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+tbody {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-weight: 400;
+
+}
+
+td {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 18px 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 310px;
+    height: 216px;
+}
+
+.bmi-cal {
+    background-color: rgb(34, 34, 34);
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-around;
+    padding: 52px 187px;
+
+}
+
+.bmi-cal-head {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-left: 30%;
+    padding-top: 78px;
+
+}
+
+.bmi-cal-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 30%;
+    padding-top: 1rem;
+    width: 601px;
+    height: 48px;
+}
+
+.bmi-cal-des {
+    background-color: rgb(0, 0, 0);
+}
+
+.chart-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+table {
+    margin-top: 52px;
+}
+
+.des-bmi {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-weight: 400;
+    width: 477px;
+    padding-top: 14px;
+
+}
+
+.field1 {
+    width: 282.5px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 12px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.field2 {
+    width: 310.5px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 12px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.field3 {
+    width: 625px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.field {
+    padding-top: 34px;
+
+}
+
+.cal-btn {
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 34px;
+}
+
+
 /* Footer started */
 .footer-container {
     background-color: rgb(35, 35, 35);
-   
+
 }
 
 .footer-contents {
