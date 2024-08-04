@@ -590,6 +590,74 @@ table {
     font-weight: 600;
     margin-top: 34px;
 }
+/* Supplements section */
+.supplement-heading{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-left: 470px;
+    padding-top: 80px;
+   
+
+}
+.supplement-head-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 671px;
+    height: 48px;
+    padding-top: 14px;
+    text-align: center;
+    padding-bottom: 198px;
+    padding-left: 400px;
+}
+.supplement-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 271px;
+    height: 48px;
+    padding-top: 14px;
+    text-align: center;
+    
+    
+
+}
+.supplement-display{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    
+}
+.supplement-img1{
+   width: 50%;
+   height: 50%;
+   border-radius: 8px;
+}
+.supplement-img2{
+    width: 75%;
+    height: 50%;
+    border-radius: 8px;
+    
+ }
+ .supplement-section{
+    background-color: rgb(0, 0, 0);
+    
+ }
+ .see-more-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 34px;
+ }
 
 
 /* Footer started */

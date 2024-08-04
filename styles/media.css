@@ -56,10 +56,13 @@
         top: 50%;
         left: 10%;
     }
-
+    .banner-card2-btn{
+        position: relative;
+    }
     .banner-play-icon {
+        position: absolute;
         display: block;
-        left: 33px;
+        left: 8px;
     }
 
 }
@@ -71,12 +74,11 @@
     }
 
     .change-habits-heading {
-        font-size: 15px;
-        width: 50%;
-        /* width: 518px; */
-        /* height: 38px; */
-
-        text-align: left;
+        width: 243px;
+        height: 38px;
+        font-size: 1.5rem;
+        padding-left: 98px;
+        
 
     }
 
@@ -119,7 +121,7 @@
 @media screen and (max-width: 576px) {
     .extra-container {
         flex-direction: column;
-        width: 400px;
+        width: 350px;
         height: 531px;
         padding: 30px 7px;
 
@@ -130,9 +132,24 @@
         text-align: left;
     }
 
+    .run-extra-content-container {
+        padding-left: 35px;
+    }
+
+    .run-extra-heading {
+        font-size: 2rem;
+        width: 267px;
+        height: 76px;
+    }
+
+    .run-extra-description {
+        font-size: 1rem;
+        width: 267px;
+    }
+
     .run-extra-img {
         width: 80%;
-        padding-left: 30px;
+        padding-left: 35px;
         padding-top: 10px;
         border-radius: 20px;
     }
@@ -144,7 +161,7 @@
     .meet-team-container {
         padding: 0px;
         padding-left: 50px;
-        height: 5000px;
+        height: 2350px;
 
     }
 
@@ -159,6 +176,7 @@
         height: 38px;
         font-size: 2rem;
         padding-left: 50px;
+        padding-top: 66px;
     }
 
     .meet-team-description {
@@ -172,34 +190,80 @@
 
 /* media Querry for BMI section */
 @media screen and (max-width: 576px) {
-    .bmi-cal-head{
+    .bmi-cal-head {
         padding-left: 10%;
     }
-    .bmi-cal-description{
+
+    .bmi-cal-description {
         padding-left: 10%;
         width: 353px;
     }
+
     .bmi-cal {
         flex-direction: column;
-        padding: 34px 20px;
+        padding: 34px 30px;
         gap: 42px;
     }
 
     .des-bmi {
         width: 346px;
-        
+
     }
-    .field1{
-        width: 170.5px;
+
+    .field1 {
+        width: 150.5px;
     }
-    .field2{
-        width: 200.5px;
+
+    .field2 {
+        width: 180.5px;
     }
-    .field3{
-        width: 400px;
+
+    .field3 {
+        width: 360px;
     }
 
 }
+
+/* media  Querry for Unique section */
+@media screen and (max-width: 576px) {
+    .supplement-display {
+        flex-direction: column;
+
+    }
+
+    .supplement-heading {
+        padding-left: 50px;
+        font-size: 1.5rem;
+    }
+
+    .supplement-head-description {
+        padding-left: 60px;
+        font-size: 0.75rem;
+        width: 300px;
+        padding-bottom: 100px;
+    }
+
+    .supplement-description {
+        font-size: 0.75rem;
+        width: 150px;
+
+    }
+
+    .supplement-img2 {
+        width: 50%;
+        height: 30%;
+
+    }
+
+    .see-more-btn {
+        width: 124px;
+        height: 24px;
+        font-size: 0.75rem;
+        margin-bottom: 34px;
+    }
+}
+
+
 
 /* footer section */
 @media screen and (max-width: 576px) {
@@ -211,5 +275,11 @@
     .hr-line {
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .footer-description {
+        font-size: 1rem;
+        width: 317px;
+        padding-bottom: 30px;
     }
 }
