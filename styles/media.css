@@ -121,11 +121,11 @@
 @media screen and (max-width: 576px) {
     .extra-container {
         flex-direction: column;
-        width: 300px;
+        width: 280px;
         height: 531px;
         padding: 1.75rem 0.5rem;
         align-items: center;
-        
+
         
        
 
@@ -148,7 +148,7 @@
     }
 
     .run-extra-description {
-        font-size: 1rem;
+        font-size: 0.75rem;
         width: 267px;
     }
 
