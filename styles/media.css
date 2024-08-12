@@ -161,13 +161,13 @@
     .meet-team-container {
         padding: 0px;
         padding-left: 50px;
-        height: 2450px;
+        height: 2350px;
 
     }
 
     .meet-team-grid {
         grid-template-columns: repeat(1, 1fr);
-        width: 80%;
+        width: 70%;
         height: 2000px;
     }
 
