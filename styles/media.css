@@ -121,9 +121,9 @@
 @media screen and (max-width: 576px) {
     .extra-container {
         flex-direction: column;
-        width: 350px;
+        width: 300px;
         height: 531px;
-        padding: 30px 7px;
+        padding: 1.75rem 0.5rem;
         
        
 
