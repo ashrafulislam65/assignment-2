@@ -203,6 +203,7 @@
         flex-direction: column;
         padding: 34px 30px;
         gap: 42px;
+        align-items: center;
     }
 
     .des-bmi {
@@ -211,15 +212,15 @@
     }
 
     .field1 {
-        width: 150.5px;
+        width: 130.5px;
     }
 
     .field2 {
-        width: 180.5px;
+        width: 160.5px;
     }
 
     .field3 {
-        width: 360px;
+        width: 320px;
     }
 
 }
