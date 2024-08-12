@@ -124,12 +124,15 @@
         width: 350px;
         height: 531px;
         padding: 30px 7px;
+        
+       
 
     }
 
     .run-extra-container {
         padding: 50px 30px;
         text-align: left;
+        align-items: center;
     }
 
     .run-extra-content-container {
@@ -149,7 +152,7 @@
 
     .run-extra-img {
         width: 80%;
-        padding-left: 35px;
+        padding-left: 25px;
         padding-top: 10px;
         border-radius: 20px;
     }
